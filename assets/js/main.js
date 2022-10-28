@@ -52,11 +52,8 @@ createApp({
                 this.error = false
             }
         },
-        submit() {
-            this.addTask()
-        },
         taskDone(i) {
-            console.log("clicked", i);
+            //console.log("clicked", i);
             this.tasks[i].done = !this.tasks[i].done;
         },
         removeTask(i) {
