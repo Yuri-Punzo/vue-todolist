@@ -48,7 +48,10 @@ createApp({
                 this.error = true
             } else {
                 this.tasks.unshift(this.newTask)
-                this.newTask = ""
+                this.newTask = {
+                    text: "",
+                    done: false,
+                }
                 this.error = false
             }
         },
