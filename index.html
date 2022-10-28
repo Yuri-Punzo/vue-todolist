@@ -26,7 +26,7 @@
         <div>
             <h5 class="mt-5">things to do:</h3>
                 <ul v-if="tasks.length !== 0">
-                    <li v-for="(task,i) in tasks" @click.stop="taskDone(i)" :class="{ crossed: tasks[i].done}">
+                    <li v-for="(task,i) in tasks" @click.stop="taskDone(i)" :class="{crossed: tasks[i].done}">
                         {{task.text}}
                         <i class="bold mx-2 text-danger fs-5 fa-solid fa-xmark" @click.stop="removeTask(i)"></i>
                     </li>
