@@ -8,3 +8,7 @@ body {
     background-color: #363636 !important;
     color: white !important;
 }
+
+.crossed {
+    text-decoration: line-through;
+}
