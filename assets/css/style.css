@@ -12,3 +12,7 @@ body {
 .crossed {
     text-decoration: line-through;
 }
+
+i {
+    vertical-align: middle;
+}
